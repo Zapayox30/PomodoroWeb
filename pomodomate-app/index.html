@@ -1,12 +1,46 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
-<!-- en pomodomate-app/index.html, dentro de <head> -->
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <!-- 1. Favicon para navegadores -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- 2. Título que sale en la pestaña -->
+    <title>Pomodomate 🍅 – Tu temporizador Pomodoro divertido</title>
+
+    <!-- 3. Descripción para motores de búsqueda -->
+    <meta name="description"
+          content="Pomodomate: temporizador Pomodoro con Domate, tu mascota tomate. Sesiones de 25 min, descansos cortos y largos, frases motivadoras y seguimiento de racha." />
+
+    <!-- 4. Open Graph / Facebook & buscadores -->
+    <meta property="og:title" 
+          content="Pomodomate 🍅 – Tu temporizador Pomodoro divertido" />
+    <meta property="og:description" 
+          content="Sesiones de 25 min, descansos cortos y largos, frases motivadoras, seguimiento de monedas y rachas diarias con Domate, tu mascota tomate." />
+    <meta property="og:image" 
+          content="https://pomodomate.com/favicon.ico" />
+    <meta property="og:url" content="https://pomodomate.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- 5. Twitter Cards -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" 
+          content="Pomodomate 🍅 – Temporizador Pomodoro" />
+    <meta name="twitter:description" 
+          content="Disfruta de Pomodomate: tu temporizador Pomodoro con mascota, rachas y motivación." />
+    <meta name="twitter:image" content="https://pomodomate.com/favicon.ico" />
+
+    <!-- 6. JSON-LD para que Google identifique tu logo -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://pomodomate.com",
+      "logo": "https://pomodomate.com/favicon.ico"
+    }
+    </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PomoDomate</title>
   </head>
   <body>
     <div id="root"></div>
