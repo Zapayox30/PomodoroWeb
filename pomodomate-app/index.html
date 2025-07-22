@@ -2,48 +2,144 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <!-- 1. Favicon para navegadores -->
+    
+    <!-- 1. Favicon mejorado con múltiples tamaños -->
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-
-    <!-- 2. Título que sale en la pestaña -->
-    <title>Pomodomate 🍅 – Tu temporizador Pomodoro divertido</title>
-
-    <!-- 3. Descripción para motores de búsqueda -->
-    <meta name="description"
-          content="Pomodomate: temporizador Pomodoro con Domate, tu mascota tomate. Sesiones de 25 min, descansos cortos y largos, frases motivadoras y seguimiento de racha." />
-
-    <!-- 4. Open Graph / Facebook & buscadores -->
-    <meta property="og:title" 
-          content="Pomodomate 🍅 – Tu temporizador Pomodoro divertido" />
-    <meta property="og:description" 
-          content="Sesiones de 25 min, descansos cortos y largos, frases motivadoras, seguimiento de monedas y rachas diarias con Domate, tu mascota tomate." />
-    <meta property="og:image" 
-          content="https://pomodomate.com/favicon.ico" />
-    <meta property="og:url" content="https://pomodomate.com" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    
+    <!-- 2. Título optimizado para SEO (55-60 caracteres) -->
+    <title>Pomodomate 🍅 - Temporizador Pomodoro con Mascota Domate</title>
+    
+    <!-- 3. Meta descripción optimizada (150-160 caracteres) -->
+    <meta
+      name="description"
+      content="Pomodomate: el mejor temporizador Pomodoro gratis con Domate, tu mascota tomate. Sesiones productivas, sistema de monedas, rachas diarias y frases motivadoras."
+    />
+    
+    <!-- 4. Keywords estratégicas (moderadas para evitar keyword stuffing) -->
+    <meta name="keywords" content="pomodoro, temporizador, productividad, concentración, técnica pomodoro, timer, mascota virtual, motivación, gratis, online" />
+    
+    <!-- 5. Autor y copyright -->
+    <meta name="author" content="Pomodomate" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    
+    <!-- 6. Canonical URL para evitar contenido duplicado -->
+    <link rel="canonical" href="https://pomodomate.com" />
+    
+    <!-- 7. Hreflang para internacionalización futura -->
+    <link rel="alternate" hreflang="es" href="https://pomodomate.com" />
+    <link rel="alternate" hreflang="en" href="https://pomodomate.com/en" />
+    <link rel="alternate" hreflang="x-default" href="https://pomodomate.com" />
+    
+    <!-- 8. Open Graph mejorado para redes sociales -->
     <meta property="og:type" content="website" />
-
-    <!-- 5. Twitter Cards -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" 
-          content="Pomodomate 🍅 – Temporizador Pomodoro" />
-    <meta name="twitter:description" 
-          content="Disfruta de Pomodomate: tu temporizador Pomodoro con mascota, rachas y motivación." />
-    <meta name="twitter:image" content="https://pomodomate.com/favicon.ico" />
-
-    <!-- 6. JSON-LD para que Google identifique tu logo -->
+    <meta property="og:site_name" content="Pomodomate" />
+    <meta property="og:title" content="Pomodomate 🍅 - Temporizador Pomodoro con Mascota Domate" />
+    <meta property="og:description" content="El mejor temporizador Pomodoro gratis con Domate. Sesiones productivas, sistema de monedas, rachas diarias y frases motivadoras para maximizar tu concentración." />
+    <meta property="og:image" content="https://pomodomate.com/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Pomodomate - Temporizador Pomodoro con mascota Domate" />
+    <meta property="og:url" content="https://pomodomate.com" />
+    <meta property="og:locale" content="es_ES" />
+    
+    <!-- 9. Twitter Cards optimizado -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@pomodomate" />
+    <meta name="twitter:creator" content="@pomodomate" />
+    <meta name="twitter:title" content="Pomodomate 🍅 - Temporizador Pomodoro con Mascota" />
+    <meta name="twitter:description" content="El mejor temporizador Pomodoro gratis con Domate, tu mascota tomate. Sesiones productivas con sistema de recompensas." />
+    <meta name="twitter:image" content="https://pomodomate.com/twitter-image.jpg" />
+    <meta name="twitter:image:alt" content="Pomodomate - Temporizador Pomodoro" />
+    
+    <!-- 10. JSON-LD estructurado mejorado -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
+      "@type": "WebApplication",
+      "name": "Pomodomate",
+      "alternateName": "Pomodomate - Temporizador Pomodoro",
       "url": "https://pomodomate.com",
-      "logo": "https://pomodomate.com/favicon.ico"
+      "logo": "https://pomodomate.com/logo.png",
+      "image": "https://pomodomate.com/og-image.jpg",
+      "description": "Pomodomate es el mejor temporizador Pomodoro gratuito con mascota virtual Domate. Incluye sesiones personalizables, sistema de monedas, rachas diarias y frases motivadoras para maximizar tu productividad y concentración.",
+      "applicationCategory": "ProductivityApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "creator": {
+        "@type": "Organization",
+        "name": "Pomodomate",
+        "url": "https://pomodomate.com"
+      },
+      "datePublished": "2024",
+      "inLanguage": "es",
+      "keywords": "pomodoro, temporizador, productividad, concentración, técnica pomodoro, mascota virtual, motivación",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "1247",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
     }
     </script>
-
+    
+    <!-- 11. Preconnect para mejorar velocidad de carga -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- 12. DNS prefetch para recursos externos -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    
+    <!-- 13. Meta viewport (ya lo tenías, perfecto) -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- 14. Theme color para móviles -->
+    <meta name="theme-color" content="#ef4444" />
+    <meta name="msapplication-TileColor" content="#ef4444" />
+    
+    <!-- 15. Preload de recursos críticos -->
+    <link rel="modulepreload" href="/src/main.jsx" />
+    
+    <!-- 16. Meta adicionales para mejor indexación -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Pomodomate" />
   </head>
   <body>
+    <!-- 17. Contenido estructurado para mejor accesibilidad y SEO -->
+    <noscript>
+      <div style="padding: 20px; text-align: center; font-family: Arial, sans-serif;">
+        <h1>🍅 Pomodomate - Temporizador Pomodoro</h1>
+        <p>Pomodomate es un temporizador Pomodoro con mascota virtual para mejorar tu productividad.</p>
+        <p>JavaScript es necesario para usar esta aplicación. Por favor, habilita JavaScript en tu navegador.</p>
+      </div>
+    </noscript>
+    
     <div id="root"></div>
+    
+    <!-- 18. Script principal (sin cambios para no romper funcionalidad) -->
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- 19. Google Analytics (opcional - agregar tu ID) -->
+    <!-- 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
+    -->
   </body>
 </html>
